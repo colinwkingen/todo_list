@@ -12,29 +12,38 @@
     <div class="container">
      <h1>To Do List:</h1>
 
-     <div class="row">
-       <div class="col-md-6">
-         <h2>Add a Task:</h2>
-         <form id="new-tasks">
-           <div class="form-group">
-             <label for="new-item">Place name</label>
-             <input type="text" class="form-control" id="new-item">
-           </div>
-           <button type="submit" class="btn">Add</button>
-         </form>
-         <h2>Your To Do List:</h2>
-         <ul id="items">
-         </ul>
-
-       </div>
-       <div class="col-md-6">
-      <div id="show-items">
-        <h2></h2>
-        <p>Current Task: <strong><span class="item-name"></span></strong></p>
-        
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a Task:</h2>
+          <form id="new-tasks">
+            <div class="form-group">
+              <label for="new-item">Task Name</label>
+              <input type="text" class="form-control" id="new-item">
+              <label for="details">Task Details</label>
+              <input type="text" class="form-control" id="details">
+            </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+          <h2>Your To Do List:</h2>
+          <ul id="items">
+          </ul>
+        </div>
+        <!-- <div id="completed">
+          <h2>Completed Tasks:</h2>
+          <ul id="completed-items">
+          </ul>
+        </div> -->
+        <div class="col-md-6">
+          <div id="show-items">
+            <div>
+              <h2></h2>
+              <p>Current Task: <strong><span class="item-name"></span></strong></p>
+              <p>Details: <strong><span class="details"></span></strong></p>
+              <button type='button' class='btn remove btn-sm'>Remove Test</button>
+            </div>
+          </div>
+        </div>
       </div>
-     </div>
-   </div>
-</div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,12 @@
+#show-items {
+  display: none;
+}
+
+.item {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
